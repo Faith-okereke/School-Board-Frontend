@@ -4,6 +4,7 @@ import Login from "./assets/pages/Login";
 import Navbar from "./assets/components/Navbar";
 import Home from "./assets/pages/Home";
 import './App.css'
+import Register from "./assets/pages/Register";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/login" element={<Login />} />
+        <Route path='register' element={<Register/>}/>
         {/* <Route element={<ProtectedRoute />}> */}
         <Route path="/" element={<Home />} />
         <Route path="/announcements" element={<Announcement />} />

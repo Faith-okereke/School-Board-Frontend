@@ -1,4 +1,6 @@
-// import { Navigate, Outlet } from "react-router-dom";
+// // import { Navigate, Outlet } from "react-router-dom";
+
+// import App from "../../App";
 
 // const ProtectedRoute = () => {
 //   let user = null;
@@ -31,7 +33,7 @@
 //     return <Navigate to="/register" />;
 //   }
 
-//   return <Outlet />;
+//   return <App />;
 // };
 
 // export default ProtectedRoute;
